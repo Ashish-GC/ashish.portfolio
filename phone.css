@@ -1,0 +1,353 @@
+
+#navbar {
+    display: none;
+
+}
+
+#navigation_phone {
+    display: block;
+    top: 0;
+    left: 0;
+    position: sticky;
+}
+
+#menu {
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: var(--color);
+
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.icon .bar {
+    background-color: var(--rev_color);
+}
+
+.icon #bar1 {
+    transform: translateY(4px) rotate(-45deg);
+}
+
+.icon #bar3 {
+    transform: translateY(-6px) rotate(45deg);
+}
+
+.icon #bar2 {
+    opacity: 0;
+}
+
+.change {
+
+    opacity: 1;
+    background-color: var(--color);
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 124vw;
+}
+
+#phone {
+
+    padding: 0;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#phone li {
+    list-style: none;
+    margin-bottom: 25px;
+  
+    cursor: pointer;
+}
+
+#phone i {
+    color: blue;
+}
+
+.visible {
+    display: none;
+}
+
+.visibility {
+    display: block;
+    transition: 1s;
+}
+
+#phone a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--rev_color);
+    padding: 0px 10px;
+}
+#phone li i {
+    padding: 0px 12px;
+    font-size: 18px;
+}
+#phone a:hover {
+    border: 1px solid white;
+}
+
+
+/* ------------home------------------- */
+
+#home {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#home i {
+    font-size: 25px;
+}
+
+#home h1 {
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
+}
+
+#second p:first-of-type {
+    font-size: 1.5rem;
+}
+
+#second p {
+    font-size: 1.1rem;
+}
+
+.btn_contact {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/* --------------About me------------------- */
+.a_heading h1 {
+    font-size: 2.5rem;
+}
+
+.a_heading p {
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+}
+
+.a_insidecontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .a_container {
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.a_container img {
+    height: 13rem;
+    width: 13rem;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+
+.a_description p {
+    font-size: 1rem;
+    padding: 0px 71px;
+}
+
+.a_exp span {
+    padding: 0px 29px;
+}
+
+.a_exp span b {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.a_exp span p {
+    font-size: 1rem;
+}
+
+.a_button #btn2 {
+    padding: 11px 14px;
+}
+
+.a_button {
+    margin-top: 28px;
+}
+
+.a_exp {
+    margin-top: 20px;
+}
+
+.a_insidecontent {
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+/* -----------skills------------ */
+.skill_container {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontend {
+    padding: 24px 15px;
+}
+
+.backend {
+    padding: 24px 19px;
+}
+
+.div10 b {
+    font-size: 26px;
+}
+
+.div10 i {
+    font-size: 28px;
+}
+
+.div10 {
+    margin-bottom: 1.5rem;
+}
+
+/* ------------------Qualification---------- */
+.education_work {
+    gap: 32px;
+    font-size: 24px;
+}
+
+.qualification_content h1 {
+    font-size: 22px;
+}
+
+.qualification_content p {
+    font-size: 12px;
+}
+
+.container {
+    grid-template-columns: 3fr 2fr 3fr;
+}
+
+/* ------------Projects------------ */
+
+.content img {
+    height: 13rem;
+    width: 13em;
+}
+.slide_main {
+    gap: 0px;
+}
+.item {
+    padding: 0px 18px;
+}
+
+.slider_wrap {
+    width: 62vw;
+}
+
+.content h3 {
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+.project_desc .demo {
+    font-size: 13px;
+    padding: 8px 11px;
+}
+
+.slider_container .btn_slider {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+/* ------------contact form ------------*/
+.contact_content {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_content1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact_content1 .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_content1 i {
+    font-size: 18px;
+}
+
+.contact_content2 form {
+    display: flex;
+    align-items: center;
+}
+
+.contact_content2 form input {
+    width: 14rem;
+    padding: 4px 7px;
+    font-size: 0.8rem;
+}
+
+.contact_content2 form textarea {
+    padding: 3px 7px;
+    font-size: 0.8rem;
+    width: 14rem;
+}
+
+.contact_content2 form button {
+    width: 89px;
+}
+
+#contact_me {
+    margin-top: 0px;
+}
+
+/* #home,
+#about,
+#skills,
+#qualification,
+#projects {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+#contact_me{
+    height: 140vh;
+    width: 110vw;
+    justify-content: center;
+} */

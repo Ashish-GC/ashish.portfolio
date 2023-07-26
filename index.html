@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish GC</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1480px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="phone.css">
+  
+    <!-- working on width 1500px -->
+
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <h3>Ashish GC</h3>
+        <ul>
+            <li><a href="#home">Home</a>
+            </li>
+            <li><a href="#about">About</a>
+            </li>
+            <li><a href="#skills">Skills</a>
+            </li>
+            <li><a href="#qualification">Qualifications</a>
+            </li>
+            <li><a href="#project">Projects</a>
+            </li>
+            <li><a href="#contact_me"> Contact me</a>
+            </li>
+            <!-- <li><a href="#">Services</a>
+            </li> -->
+            <li><i onclick="theme()" class="fa-regular fa-moon icon"></i>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- navbar phone -->
+    <nav id="navigation_phone">
+        <div id="menu" onclick="phone_menu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <div id="phone">
+            <ul class="visible">
+                <li><a href="#home">Home</a>
+                </li>
+                <li><a href="#about">About</a>
+                </li>
+                <li><a href="#skills">Skills</a>
+                </li>
+                <li><a href="#qualification">Qualifications</a>
+                </li>
+                <li><a href="#project">Projects</a>
+                </li>
+                <li><a href="#contact_me"> Contact me</a>
+                </li>
+                <li><i onclick="theme()" class="fa-regular fa-moon icon"></i>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ------------------home---------------------- -->
+    
+    <section id="home">
+        <div id="first">
+            <ul>
+                <li><a class="logo1" href="https://www.linkedin.com/in/ashish-gc-797932235/" target="_blank"><i
+                            class="fa-brands fa-2x fa-linkedin"></i></a></li>
+                <li><a class="logo1" href="https://leetcode.com/Ashish_GC/" target="_blank"><i
+                            class="fa-sharp fa-solid fa-code fa-2x"></i></a></li>
+                <li><a class="logo1" href="https://github.com/Ashish-GC" target="_blank"><i
+                            class="fa-brands fa-2x fa-github"></i></a></li>
+            </ul>
+        </div>
+        <div id="second">
+            <h1>Hi , I am Ashish GC</h1>
+            <p>Full Stack developer</p>
+            <p>Passionate about creating seamless user experiences and </p>
+            <p>leveraging the latest technologies for innovative projects.</p>
+            <a href="#contact_me"><button id="btn1" class="btn_contact">Contact Me </button></a>
+        </div>
+    </section>
+
+    <!-- ----------------About------------------- -->
+    <section id="about">
+        <div class="a_heading">
+            <h1>About Me</h1>
+            <p>My introduction</p>
+        </div>
+        <div class="a_container">
+            <img src="./img/Screenshot 2023-07-25 141059.png" alt="remote image">
+            <div class="a_insidecontent">
+                <div class="a_description">
+                    <p>Hi, I'm Ashish GC, a passionate full stack developer. Currently studying at DIT University. I love creating user-friendly applications and continuously learning to stay updated in the dynamic world of software development.</p>
+                <!-- </div>
+                <div class="a_exp">
+                    <span><b>08+</b>
+                        <p>years</p>
+                        <p>experience</p>
+                    </span>
+                    <span><b>08+</b>
+                        <p>completed</p>
+                        <p>projects</p>
+                    </span>
+                    <span><b>08+</b>
+                        <p>companies</p>
+                        <p>worked</p>
+                    </span>
+                </div> -->
+                <div class="a_button">
+                    <a download="Resume.pdf" href="./download/FinalInitial.pdf"><button id="btn2"> RESUME <i
+                                class="fa-sharp fa-solid fa-download"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------skills------------------>
+
+    <section id="skills">
+        <div class="a_heading">
+            <h1>Skills</h1>
+            <p>My technical level</p>
+        </div>
+        <div class="skill_container">
+            <!-- Skill 1 -->
+            <div class="frontend">
+                <div class="div10"> <span><i class="fa-solid fa-2x fa-ghost"></i></span>
+                    <div><span><b>Frontend developer</b></span>
+                        <!-- <p>More than 11 months</p> -->
+                    </div>
+                </div>
+                <form action="noaction" id="skill_bar">
+                    <div class="space_between">
+                        <label for="JavaScript">JavaScript</label>
+                        <span id="span1">60%</span>
+                    </div>
+
+                    <input type="range" id="JavaScript" class="bar" value="60" min="0" max="100">
+
+                    <div class="space_between">
+                        <label for="CSS">CSS</label>
+                        <span id="span1">80%</span>
+                    </div>
+                    <input type="range" id="CSS" class="bar" value="80" min="0" max="100">
+
+                    <div class="space_between">
+                        <label for="ReactJS">ReactJS</label>
+                        <span id="span1">20%</span>
+                    </div>
+                    <input type="range" id="ReactJS" class="bar" value="20" min="0" max="100">
+                </form>
+            </div>
+            <!--  Skill 2 -->
+            <div class="backend">
+                <div class="div10"> <span><i class="fa-solid fa-2x fa-ghost"></i></span>
+                    <div><span><b>Backend developer</b></span>
+                        <!-- <p>More than 3 months</p> -->
+                    </div>
+                </div>
+                <form action="noaction" id="skill_bar">
+                    <div class="space_between">
+                        <label for="java">JAVA</label>
+                        <span id="span1">60%</span>
+                    </div>
+                    <input type="range" id="java" class="bar" value="60" min="0" max="100">
+
+                    <div class="space_between">
+                        <label for="NodeJS">NodeJS</label>
+                        <span id="span1">25%</span>
+                    </div>
+                    <input type="range" id="NodeJS" class="bar" value="25" min="0" max="100">
+
+                    <div class="space_between">
+                        <label for="MySQL">MySQL</label>
+                        <span id="span1">60%</span>
+                    </div>
+                    <input type="range" id="MySQL" class="bar" value="60" min="0" max="100">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------Qualifications------------------>
+
+    <section id="qualification">
+        <div class="a_heading">
+            <h1>Qualification</h1>
+            <p>My personal Journey</p>
+        </div>
+
+        <div class="education_work ">
+            <div class="education">
+                <i class="fa-solid fa-school"></i>
+                <span><b>Education</b></span>
+            </div>
+            <!-- <div class="Work ">
+                <i class="fa-solid fa-briefcase"></i>
+                <span><b>Work</b></span>
+            </div> -->
+        </div>
+
+        <div class="qualification_content">
+            <div class="container">
+                <div class="con1">
+                    <div class="degree">
+                        <h1>Btech CSE</h1>
+                        <p>DIT-University</p>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>2020 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="con1">
+                    <div class="qualification_bar">
+                        <span class="circle"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="con1"></div>
+                <div class="con1"></div>
+                <div class="con1">
+                    <div class="qualification_bar">
+                        <span class="circle"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <!-- <div class="con1">
+                    <div class="work">
+                        <h1>work</h1>
+                        <p>work</p>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>2020 - 2024</span>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="con1">
+                    <div class="degree">
+                        <h1>CISCE</h1>
+                        <p>Seven Oaks School</p>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>2007 - 2019</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="con1">
+                    <div class="qualification_bar">
+                        <span class="circle"></span>
+                        <span class="line"></span>
+                    </div>
+                </div> -->
+                <!-- <div class="con1"></div>
+                <div class="con1"></div>
+                <div class="con1">
+                    <div class="qualification_bar">
+                        <span class="circle"></span>
+                    </div>
+                </div>
+                <div class="con1">
+                    <div class="work">
+                        <h1>work</h1>
+                        <p>work</p>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>2020 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </section>
+
+    <!-- ------------------Projects---------------------->
+
+    <section id="project">
+        <div class="a_heading">
+            <h1>Projects</h1>
+            <p></p>
+        </div>
+        <div class="slider_container">
+
+            <button class="btn_slider" id="prev" onclick="prev()">
+                <i class="fa-solid fa-angles-left"></i>
+            </button>
+
+            <!-- card slider-->
+            <div class="slider_wrap">
+                <div class="slide_main" id="slider">
+                    <div class="item">
+                        <div class="content">
+                            <img src="./img/p1.png" alt="remote image">
+                            <div class="project_desc">
+                                <h3>Music Player</h3>
+                                <p>Offline music app with an intuitive interface.</p>
+                                <button class="demo">
+                                    <a href="https://ashish-gc.github.io/musicplayer.github.com/" target="_blank">
+                                        <span>Demo</span>
+                                        <i class="fa-sharp fa-solid fa-arrow-right "></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <img src="./img/p2.png" alt="remote image">
+                            <div class="project_desc">
+                                <h3>Tic Tac Toe</h3>
+                                <p>Developed a Tic Tac Toe game using JavaScript and HTML/CSS.</p>
+                                <button class="demo">
+                                    <a href="https://ashish-gc.github.io/tictactoe.github.io/" target="_blank">
+                                        <span>Demo</span>
+                                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <img src="./img/p3.png" alt="remote image">
+                            <div class="project_desc">
+                                <h3>Calculator</h3>
+                                <p>A simple calculator capable of performing basic arithmetic operations</p>
+                                <button class="demo">
+                                    <a href="https://ashish-gc.github.io/Calculator.github/" target="_blank">
+                                        <span>Demo</span>
+                                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="item">
+                        <div class="content">
+                            <img src="./img/p1.png" alt="remote image">
+                            <div class="project_desc">
+                                <h3>Website</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, magnam!</p>
+                                <button class="demo">
+                                    <a href="#project">
+                                        <span>Demo</span>
+                                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <img src="./img/p2.png" alt="remote image">
+                            <div class="project_desc">
+                                <h3>Website</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, magnam!</p>
+                                <button class="demo">
+                                    <a href="#project">
+                                        <span>Demo</span>
+                                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <img src="./img/p3.png" alt="remote image">
+                            <div class="project_desc">
+                                <h3>Website</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, magnam!</p>
+                                <button class="demo">
+                                    <a href="#project">
+                                        <span>Demo</span>
+                                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+
+            <button class="btn_slider" id="next" onclick="next()">
+                <i class="fa-solid fa-angles-right"></i>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- --------------------Contact Me--------------- -->
+
+    <section id="contact_me">
+        <div class="a_heading">
+            <h1>Contact Me</h1>
+            <p>Get in touch</p>
+        </div>
+
+        <div class="contact_content">
+            <div class="contact_content1">
+               <!-- phone -->
+                <div class="info " id="ph"> 
+                    <span><i class="fa-solid fa-2x fa-phone"></i></span>
+                    <div><span><b>Call Me</b></span>
+                        <p>8077273132</p>
+                    </div>
+                </div>
+                <!-- email -->
+                <div class="info " id="info_email"> 
+                    <span><i class="fa-regular fa-2x fa-envelope"></i></span>
+                    <div><span><b>Email</b></span>
+                        <p>ashishgc8077@gmail.com</p>
+                    </div>
+                </div>
+                <!-- location -->
+                <div class="info " id="location"> 
+                    <span><i class="fa-solid fa-2x fa-location-dot"></i></span>
+                    <div><span><b>Location</b></span>
+                        <p>NayaGaon,Dehradun,Uttarakhand</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_content2">
+                <form onsubmit="send_email(); reset(); return false;">
+                    <input type="text" id="contact_name" placeholder="Name">
+                   <input type="email" id="contact_email" placeholder="Email">
+                   <textarea name="project" id="contact_project" cols="10" rows="4" placeholder="Project"></textarea>
+                   <textarea name="message" id="contact_message" cols="10" rows="10" placeholder="Message"></textarea>
+                   <button type="submit" id="contact_submit" class="btn_contact">Submit</button>
+                </form>
+            </div>
+        </div>
+      
+    </section>
+    <button class="slide_to_top" onclick="slidetop()">
+        <i class="fa-solid  fa-arrow-up  icon_slider"></i>
+    </button>
+    <!-- <footer>
+        <div class="copyright">
+            Ashish GC , Copyright &copy; 2023
+    </footer> -->
+    
+</body>
+<!-- Script -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="logic.js"></script>
+
+</html>
